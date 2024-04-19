@@ -3,14 +3,14 @@
 using namespace std;
 
 int main() {
-    // Definindo as variáveis para altura e base
+    // Definindo as variÃ¡veis para altura e base
     int altura = 5;
     int base = 12;
 
-    // Calculando a área do retângulo
+    // Calculando a Ã¡rea do retÃ¢ngulo
     int area = altura * base;
 
-    // Exibindo a área calculada
+    // Exibindo a Ã¡rea calculada
     cout << "A area do retangulo com altura " << altura << " e base " << base << " eh: " << area << endl;
 
     return 0;
