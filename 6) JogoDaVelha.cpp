@@ -67,7 +67,7 @@ int main() {
 
         while (true) {
             if (!(cin >> row >> col) || !isValidMove(row, col)) {
-                cout << "Jogada inválida! Tente novamente." << endl;
+                cout << "Jogada invÃ¡lida! Tente novamente." << endl;
                 clearBuffer();
                 continue;
             }
@@ -78,7 +78,7 @@ int main() {
 
         if (checkWin()) {
             drawBoard();
-            cout << "Parabéns! Jogador " << currentPlayer << " venceu!" << endl;
+            cout << "ParabÃ©ns! Jogador " << currentPlayer << " venceu!" << endl;
             break;
         }
 
