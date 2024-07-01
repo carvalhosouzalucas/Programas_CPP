@@ -14,7 +14,7 @@ int main(void)
     scanf("%f", &b);
 
     
-    printf("Equação de 1 grau: %fx + %f = 0\n", a, b);
+    printf("EquaÃ§Ã£o de 1 grau: %fx + %f = 0\n", a, b);
 
     
     system("Pause");
