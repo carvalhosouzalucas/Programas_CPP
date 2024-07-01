@@ -8,7 +8,7 @@ int main() {
     cout << "Digite o primeiro numero: " << endl;
     cin >> num1;
 
-    cout << "Digite uma das operações [+,-,/,*]: " << endl;
+    cout << "Digite uma das operaÃ§Ãµes [+,-,/,*]: " << endl;
     cin >> op;
 
     cout << "Digite o segundo numero: " << endl;
@@ -23,12 +23,12 @@ int main() {
         if (num2 != 0)
             resultado = num1 / num2;
         else
-            cout << "Erro: Divisão por zero!" << endl;
+            cout << "Erro: DivisÃ£o por zero!" << endl;
     }
     else if (op == '*')
         resultado = num1 * num2;
     else
-        cout << "Operação inválida!" << endl;
+        cout << "OperaÃ§Ã£o invÃ¡lida!" << endl;
 
     if (op == '/' && num2 != 0)
         cout << num1 << " " << op << " " << num2 << " = " << resultado << endl;
