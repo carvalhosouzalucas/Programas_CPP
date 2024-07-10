@@ -14,7 +14,7 @@ int main() {
     cin >> valor;
 
     if (valor < 2 || valor > 2000) {
-        cout << "Valor inválido!\n";
+        cout << "Valor invÃ¡lido!\n";
     } else {
         duzentos = valor / 200; 
         valor -= duzentos * 200; 
@@ -40,7 +40,7 @@ int main() {
         resto = valor; 
 
         if (resto >= 1) {
-            cout << "Valor inválido!\n";
+            cout << "Valor invÃ¡lido!\n";
         } else {
             if (duzentos > 0) {
                 cout << "Nota(s) de 200: " << duzentos << "\n";
