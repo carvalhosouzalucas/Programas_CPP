@@ -14,9 +14,9 @@ int main(){
 	cout << "Informe o valor total da compra: \n";
 	cin >> valorCompra;
 	
-	cout << "Digite o código: \n";
+	cout << "Digite o cÃ³digo: \n";
 	cout << "1 - Cliente Comum (0% desconto)\n";
-	cout << "2 - Funcionário (10% desconto)\n";
+	cout << "2 - FuncionÃ¡rio (10% desconto)\n";
 	cout << "3 - Cliente Vip (5% desconto)\n";
 	cin >> codigo;
 	
@@ -30,7 +30,7 @@ int main(){
 			
 		case 2:
 				totalPagar = valorCompra - (valorCompra * 0.1);
-				cout << "\Funcionário - 10% de desconto.\n";
+				cout << "\FuncionÃ¡rio - 10% de desconto.\n";
 				cout << "Total a pagar: " << totalPagar << "\n";
 			break;
 			
@@ -41,7 +41,7 @@ int main(){
 			break;
 			
 		default:
-				cout << "Opção inválida!!!\n";
+				cout << "OpÃ§Ã£o invÃ¡lida!!!\n";
 			break;
 		
 	}
