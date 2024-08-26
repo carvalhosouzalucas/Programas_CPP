@@ -8,13 +8,13 @@ int main()
 {
     do
     {
-        std::cout << "Digite o primeiro número: " << std::endl;
+        std::cout << "Digite o primeiro nÃºmero: " << std::endl;
         std::cin >> num1;
         
-        std::cout << "Digite a operação (+, -, *, /): " << std::endl;
+        std::cout << "Digite a operaÃ§Ã£o (+, -, *, /): " << std::endl;
         std::cin >> op;
         
-        std::cout << "Digite o segundo número: " << std::endl;
+        std::cout << "Digite o segundo nÃºmero: " << std::endl;
         std::cin >> num2;
         
         switch (op)
@@ -39,16 +39,16 @@ int main()
                     resultado = num1 / num2;
                     std::cout << "Resultado: " << resultado << std::endl;
                 } else {
-                    std::cout << "Erro: Divisão por zero!" << std::endl;
+                    std::cout << "Erro: DivisÃ£o por zero!" << std::endl;
                 }
                 break;
         
             default:
-                std::cout << "Operação inválida!" << std::endl;
+                std::cout << "OperaÃ§Ã£o invÃ¡lida!" << std::endl;
                 break;
         }
         
-        std::cout << "Deseja realizar outra operação? (s/n): " << std::endl;
+        std::cout << "Deseja realizar outra operaÃ§Ã£o? (s/n): " << std::endl;
         std::cin >> continuar;
         
     } while (continuar == 's' || continuar == 'S');
